@@ -38,6 +38,25 @@ export default function TabsLayout() {
                     ),
                 }}
             />
+
+            <Tabs.Screen
+                name="inbox"
+                options={{
+                    title: "Inbox",
+                    tabBarIcon: ({ color, size }) => (
+                        <Ionicons name="chatbox-ellipses" size={size} color={color} />
+                    ),
+                }}
+            />
+            <Tabs.Screen
+                name="favorite"
+                options={{
+                    title: "Favorite",
+                    tabBarIcon: ({ color, size }) => (
+                        <Ionicons name="heart" size={size} color={color} />
+                    ),
+                }}
+            />
             <Tabs.Screen
                 name="profile"
                 options={{
