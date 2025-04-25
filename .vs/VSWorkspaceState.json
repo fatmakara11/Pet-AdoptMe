@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\(tabs)"
+    "\\app\\(tabs)",
+    "\\config"
   ],
-  "SelectedNode": "\\app\\(tabs)\\profile.jsx",
   "PreviewInSolutionExplorer": false
 }
