@@ -3,6 +3,7 @@ import { useUser } from '@clerk/clerk-expo';
 import { Text, View, StyleSheet, Image, ScrollView } from 'react-native';
 import Colors from '../../constants/Colors';
 import Slider from '../components/Slider';
+import PetListByCategory from '../components/PetListByCategory';
 
 export default function HomeTab() {
     const { user } = useUser();
@@ -28,9 +29,8 @@ export default function HomeTab() {
 
                 {/* Slider */}
                 <Slider />
-
-                {/* Category */}
-                {/* List of Pets */}
+                {/* PetList+ Category */}
+                <PetListByCategory />
                 {/* Add new pet option */}
             </View>
         </ScrollView>

@@ -3,6 +3,7 @@
     "",
     "\\app",
     "\\app\\(tabs)",
+    "\\app\\components",
     "\\config"
   ],
   "PreviewInSolutionExplorer": false

@@ -1,24 +1,79 @@
-import { View, Text } from 'react-native'
-import React, { useEffect } from 'react'
-import { collection, getDocs } from 'firebase/firestore'
-import { db } from '../../config/FirabaseConfig';
+import { View, Text, Dimensions, Image, ScrollView, ActivityIndicator } from 'react-native'
+import React from 'react'
+import { useSliderLister } from '../../config/FirabaseConfig';
+import { StyleSheet } from 'react-native';
+import Colors from '../../constants/Colors';
 
 export default function Slider() {
-    useEffect(() => {
-        GetSliders();
+    const { sliderData, loading, error } = useSliderLister();
 
-    }, [])
-
-
-    const GetSliders = async () => {
-        const snapshot = await getDocs(collection(db, 'Slider'))
-        snapshot.forEach((doc) => {
-            console.log(doc.data());
-        })
+    if (loading) {
+        return (
+            <View style={styles.loadingContainer}>
+                <ActivityIndicator size="large" color={Colors.PRIMARY} />
+            </View>
+        );
     }
+
+    if (error) {
+        return (
+            <View style={styles.errorContainer}>
+                <Text style={styles.errorText}>Failed to load slider images</Text>
+            </View>
+        );
+    }
+
     return (
-        <View>
-            <Text>Slider</Text>
+        <View style={styles.container}>
+            {sliderData.length > 0 ? (
+                <ScrollView
+                    horizontal={true}
+                    showsHorizontalScrollIndicator={false}
+                >
+                    {sliderData.map((item, index) => (
+                        <View key={item.id || index}>
+                            <Image
+                                source={{ uri: item?.imageUrl }}
+                                style={styles.sliderImage}
+                            />
+                        </View>
+                    ))}
+                </ScrollView>
+            ) : (
+                <Text style={styles.noDataText}>No slider images available</Text>
+            )}
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 15,
+        marginBottom: 10,
+    },
+    loadingContainer: {
+        height: 170,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    errorContainer: {
+        height: 170,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    errorText: {
+        color: 'red',
+        fontSize: 16,
+    },
+    noDataText: {
+        textAlign: 'center',
+        fontSize: 16,
+        marginVertical: 20,
+    },
+    sliderImage: {
+        width: Dimensions.get('screen').width * 0.99,
+        height: 150,
+        borderRadius: 15,
+        marginRight: 15
+    }
+})

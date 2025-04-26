@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\components\\Slider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\Slider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\config\\FirabaseConfig.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\FirabaseConfig.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\(tabs)\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\(tabs)\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\(tabs)\\profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +42,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Slider.jsx",
+              "DocumentMoniker": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\components\\Slider.jsx",
+              "RelativeDocumentMoniker": "app\\components\\Slider.jsx",
+              "ToolTip": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\components\\Slider.jsx",
+              "RelativeToolTip": "app\\components\\Slider.jsx",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAE0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-25T21:38:05.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.jsx",
+              "DocumentMoniker": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\index.jsx",
+              "RelativeDocumentMoniker": "app\\index.jsx",
+              "ToolTip": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\index.jsx",
+              "RelativeToolTip": "app\\index.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-25T21:36:59.078Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FirabaseConfig.js",
+              "DocumentMoniker": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\config\\FirabaseConfig.js",
+              "RelativeDocumentMoniker": "config\\FirabaseConfig.js",
+              "ToolTip": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\config\\FirabaseConfig.js",
+              "RelativeToolTip": "config\\FirabaseConfig.js",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-25T21:36:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "profile.jsx",
               "DocumentMoniker": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\(tabs)\\profile.jsx",
               "RelativeDocumentMoniker": "app\\(tabs)\\profile.jsx",
@@ -42,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "index.jsx",
               "DocumentMoniker": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\(tabs)\\index.jsx",
               "RelativeDocumentMoniker": "app\\(tabs)\\index.jsx",
               "ToolTip": "C:\\Users\\fatma\\OneDrive\\Desktop\\React Native\\Pet-AdoptMe\\app\\(tabs)\\index.jsx",
               "RelativeToolTip": "app\\(tabs)\\index.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-04-24T14:11:45.356Z"
             },

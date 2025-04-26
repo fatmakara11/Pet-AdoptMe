@@ -51,14 +51,26 @@ export const useSliderLister = () => {
                 setError(null);
 
                 console.log("Starting to fetch sliders from Firestore...");
+
+                // Check if db is properly initialized
+                if (!db || db._errorMessage) {
+                    throw new Error("Firebase database not properly initialized");
+                }
+
+                // Make sure your collection name matches exactly what's in Firebase console
                 const sliderCollection = collection(db, 'Slider');
                 console.log("Slider collection reference created");
 
                 const snapshot = await getDocs(sliderCollection);
                 console.log("Got snapshot with", snapshot.size, "documents");
 
+                if (snapshot.empty) {
+                    console.log("No slider documents found in collection");
+                }
+
                 const sliders = [];
                 snapshot.forEach((doc) => {
+                    console.log("Document data:", JSON.stringify(doc.data()));
                     sliders.push({
                         id: doc.id,
                         ...doc.data()
